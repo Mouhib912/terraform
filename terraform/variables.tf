@@ -13,11 +13,11 @@ variable "service_plan_name" {
 variable "web_app_name" {
   description = "The name of the Azure Web App."
   type        = string
-  default     = "flask-app-chedi"
+  default     = "flask-app-mouhib"
 }
 
 variable "subscription_id" {
   description = "The Azure Subscription ID"
   type        = string
-  default     = "8e9dcb14-acc5-43cd-8641-53c8180ccfa7"
+  default     = "b730c99c-1fad-46c1-8912-f7a8d07dc1a6"
 }
